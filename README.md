@@ -15,12 +15,19 @@ This is a project on EDA of the Seattle Airbnb dataset, part of the Udacity nano
 You'll need an Anaconda distribution of Python. The code should run with no issues using Python versions 3.*.
 In addition, to plot the map similar to what I did, you'll need to install `plotly`
 either using `pip`:
+
       `$ pip install plotly==5.3.1`
+      
 or `conda`:
+
       `$ conda install -c plotly plotly=5.3.1`
+      
 To export static image, Kaleido package also needs to be installed
+
       `$ pip install -U kaleido`
+
 or
+
       `$ conda install -c conda-forge python-kaleido`
 
 ## Project Motivation<a name="motivation"></a>
@@ -33,7 +40,7 @@ For this project, I studied the Seattle Airbnb dataset from Kaggle to understand
 
 
 ## File Descriptions <a name="files"></a>
-The repository includes a `Data` folder with three datasets downloaded from Kaggle, a `figures` folder with plots that I generated, and a Jupyter notebook with all of the code I wrote.
+The repository includes a `Data` folder with three datasets downloaded from Kaggle, a `Figures` folder with plots that I generated, and a Jupyter notebook with all of the code I wrote.
 
 ## Results<a name="results"></a>
 
@@ -41,5 +48,4 @@ The main findings can be found at the post available [here](https://medium.com/@
 
 ## Licensing, Authors, Acknowledgements<a name="licensing"></a>
 
-The original data source is from Airbnb [here](http://insideairbnb.com/seattle/)
-The dataset I used can be found on Kaggle via this [link](https://www.kaggle.com/airbnb/seattle)
+The original data source is from Airbnb [here](http://insideairbnb.com/seattle/) and the dataset I used can be found on Kaggle via this [link](https://www.kaggle.com/airbnb/seattle)
